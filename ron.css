@@ -294,6 +294,7 @@ a{
     min-height: 200px;
     flex-direction: column-reverse;
     text-align: center;
+    margin:0 auto;
 }
 #footer .container h1{
     color: mintcream;
