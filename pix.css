@@ -249,9 +249,6 @@ ul {
 
 /*End trans Section*/
 
-
-/*About Section*/
-
 #about {
     flex-direction: row;
     text-align: center;
@@ -348,8 +345,8 @@ ul {
 }
 
 @media only screen and (max-width:800px) {
-    *{
-        max-width:375px;
+    * {
+        max-width: 375px;
     }
     /* Header */
     #header {
@@ -511,4 +508,28 @@ ul {
         font-size: 1.4rem;
     }
     /*End Hero*/
+    /*Trans*/
+    #trans .trans-title {
+        font-size: 2rem;
+    }
+    #trans .project-item {
+        width: 80%;
+        height: 80%;
+    }
+    #trans .story-info h1 {
+        color: crimson;
+        font-size: 1.4rem;
+    }
+    #trans .story-info p {
+        font-size: .8rem;
+    }
+    #trans .story-img img {
+        width: 100%;
+    }
+    /*End　Trans*/
+    /*About*/
+    #about {
+        display: none;
+    }
+    /*End About*/
 }
