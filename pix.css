@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -106,7 +107,7 @@ ul {
     flex-direction: column;
     animation: text_reveal 1s ease forwards;
     animation-delay: .5s;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     width: fit-content;
 }
 
@@ -119,6 +120,7 @@ ul {
 }
 
 #hero h1:nth-child(3) {
+    animation: text_color .5s forwards;
     animation-delay: 3s;
 }
 
@@ -344,7 +346,13 @@ ul {
     }
 }
 
-@media only screen and (max-width:500px) {
+@keyframes text_color {
+    100% {
+        color: cyan;
+    }
+}
+
+@media only screen and (max-width:800px) {
     * {
         max-width: 375px;
     }
@@ -505,7 +513,7 @@ ul {
         padding: 0;
     }
     #hero .hero-text h1 {
-        font-size: 1.4rem;
+        font-size: .85rem;
     }
     /*End Hero*/
     /*Trans*/
